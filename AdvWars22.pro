@@ -4,4 +4,12 @@ CONFIG -= app_bundle
 CONFIG -= qt
 
 SOURCES += \
-        main.cpp
+        main.cpp \
+    ../projet_cpt_algo_et_prog/main.cpp \
+    ../projet_cpt_algo_et_prog/mainwindow.cpp
+
+FORMS += \
+    ../projet_cpt_algo_et_prog/mainwindow.ui
+
+HEADERS += \
+    ../projet_cpt_algo_et_prog/mainwindow.h
